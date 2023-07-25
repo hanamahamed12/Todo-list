@@ -16,7 +16,7 @@ function Form(){
     }
 
     return <div className="main">
-        <h1>Our list of Todos</h1>
+        <h1>My Todos list</h1>
 
         <form className="form">
             <label>Enter Item</label> <br/>
@@ -32,7 +32,7 @@ function Form(){
         todos.map((todo,index)=>(
             <div className="item-p">
             <div className="items"> 
-                <h5>{todo}</h5>
+                <h4>{todo}</h4>
             </div>
         </div>
 
